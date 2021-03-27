@@ -1,5 +1,70 @@
-*, body, html{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    display: inline-flex;
+}
+
+.images {
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 20px;
+
+}
+
+.images:hover{
+    width: 320px;
+    height: 430px;
+}
+
+#image1 {
+  background: url(/images/darth-varder.jpeg) no-repeat center center;
+}
+
+#image2 {
+  background: url(/images/luke-skywalker.jpeg) no-repeat center center;
+}
+
+#image3 {
+  background: url(/images/istockphoto-683821250-612x612.jpeg) no-repeat center
+    center;
+}
+
+#image4 {
+  background: url(/images/istockphoto-477975108-612x612.jpeg) no-repeat center
+    center;
+}
+
+#image5 {
+    background: url(/images/obi-wan-kennobi.jpeg) no-repeat center center;
+}
+
+#image6 {
+    background: url(/images/C-3p0.jpeg) no-repeat center center;
+
+}
+
+#image7 {
+    background: url(/images/owen-lars.jpeg) no-repeat center center;
+}
+
+
+#image8 {
+    background: url(/images/leia-organa.jpeg) no-repeat center center;
+}
+
+
+#image9 {
+    background: url(/images/starwars1.webp) no-repeat center center;
+}
+
+
+#image10 {
+    background: url(/images/r2-d2.jpeg) no-repeat center center;
 }
