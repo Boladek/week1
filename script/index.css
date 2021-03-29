@@ -6,65 +6,55 @@ html {
   box-sizing: border-box;
 }
 
-.container{
-    display: inline-flex;
+.main{
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.top-section {
+  background: url(/images/darth.jpeg) repeat;
+  height: 10rem;
+  width: 100%;
+  color: red;
+  text-align: center;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 80rem;
+  border: 3px solid red;
+  text-align: center;
 }
 
 .images {
-  height: 400px;
-  width: 300px;
+  width: 612px;
+  height: 612px;
   margin-top: 50px;
-  margin-right: 20px;
-
+  margin-right: 50px;
 }
 
-.images:hover{
-    width: 320px;
-    height: 430px;
+.name-container{
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
 }
 
-#image1 {
-  background: url(/images/darth-varder.jpeg) no-repeat center center;
+.name-list{
+  margin-right: 100px;
+  font-size: 20px;
 }
 
-#image2 {
-  background: url(/images/luke-skywalker.jpeg) no-repeat center center;
+li:hover{
+  color: red;
+  text-decoration: double;
 }
 
-#image3 {
-  background: url(/images/istockphoto-683821250-612x612.jpeg) no-repeat center
-    center;
-}
-
-#image4 {
-  background: url(/images/istockphoto-477975108-612x612.jpeg) no-repeat center
-    center;
-}
-
-#image5 {
-    background: url(/images/obi-wan-kennobi.jpeg) no-repeat center center;
-}
-
-#image6 {
-    background: url(/images/C-3p0.jpeg) no-repeat center center;
-
-}
-
-#image7 {
-    background: url(/images/owen-lars.jpeg) no-repeat center center;
-}
-
-
-#image8 {
-    background: url(/images/leia-organa.jpeg) no-repeat center center;
-}
-
-
-#image9 {
-    background: url(/images/starwars1.webp) no-repeat center center;
-}
-
-
-#image10 {
-    background: url(/images/r2-d2.jpeg) no-repeat center center;
+li{
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: left;
 }
