@@ -13,37 +13,23 @@ html {
   height: 100px;
 }
 
-.top-section {
-  height: 10rem;
-  width: 100%;
-  color: red;
-  text-align: center;
-}
-
 .container {
   margin: 0 auto;
-  width: 80rem;
+  width: 100%;
   border: 5px solid grey;
   text-align: center;
 }
 
 .images {
-  width: 612px;
-  height: 612px;
-  margin-top: 50px;
-  margin-right: 50px;
-}
-
-.name-container {
-  height: 200px;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
+  width: 612rem;
+  height: 612rem;
+  margin-top: 50rem;
+  margin-right: 50rem;
 }
 
 .name-list {
-  margin-right: 100px;
-  font-size: 20px;
+  margin-right: 100rem;
+  font-size: 20rem;
 }
 
 li:hover {
@@ -64,4 +50,3 @@ footer{
   text-align: center;
   margin-top: 10px;
 }
-
