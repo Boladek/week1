@@ -10,8 +10,12 @@ const btn6 = document.getElementById("btn6");
 const btn7 = document.getElementById("btn7");
 const btn8 = document.getElementById("btn8");
 const btn9 = document.getElementById("btn9");
-
 const output0 = document.getElementById('output0');
+let footer = document.getElementById("footer");
+let date = new Date();
+footer.innerHTML = "<p>Designed by Boladek " + date.getFullYear();
+
+
 
 // creating a click event function for every button
 btn0.addEventListener('click', function getInfo() { 
